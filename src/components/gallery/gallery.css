@@ -1,0 +1,21 @@
+.section__gallery {
+    background-color: var(--primaryColor);
+}
+.gallery__content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    /* height: 140px; */
+    justify-content: space-around;
+}
+
+.gallery__item {
+    opacity: 0.6;
+    margin: 20px 0;
+}
+
+.gallery__item:hover {
+    opacity: 1;
+    transition: all 0.2s ease;
+}

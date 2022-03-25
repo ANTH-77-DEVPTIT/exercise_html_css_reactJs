@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from "./components/header/Header";
+import Button from "./layouts/button/index";
+import Section from "./components/section/Section";
+import Gallery from "./components/gallery/Gallery";
+import Feedback from "./components/feedback/Feedback";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div id="wrapper">
+        {/* chứa header với phần content contact */}
+        <div id="main">
+          <div className="content">
+            <Header />
+            <div className="section">
+              <Section />
+            </div>
+          </div>
+        </div>
+        <Gallery />
+        <Feedback />
+      </div>
+
+      {/* footer */}
     </div>
   );
 }

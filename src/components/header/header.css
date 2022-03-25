@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0 10px;
+}
+
+
+.header__logo a {
+    font-family: var(--fontFamily1);
+    color: var(--primaryColor);
+    font-weight: 900;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.list__items {
+    font-family: var(--fontFamily2);
+    display: flex;
+    font-weight: 500;
+}
+
+.item {
+    padding: 0 10px;
+    color: white;
+}
+
+.header__phone {
+    text-align: center;
+
+}
