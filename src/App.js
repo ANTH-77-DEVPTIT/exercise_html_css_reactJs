@@ -1,8 +1,9 @@
 import Header from "./components/header/Header";
-import Button from "./layouts/button/index";
 import Section from "./components/section/Section";
 import Gallery from "./components/gallery/Gallery";
 import Feedback from "./components/feedback/Feedback";
+import Evaluate from "./components/evaluate/Evaluate";
+import Service from "./components/service/Service";
 function App() {
   return (
     <div>
@@ -18,6 +19,8 @@ function App() {
         </div>
         <Gallery />
         <Feedback />
+        <Evaluate/>
+        <Service/>
       </div>
 
       {/* footer */}
