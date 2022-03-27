@@ -11,8 +11,7 @@ const Evaluate = () => {
         </div>
         <button className="evaluate__seeMore button">
           <span>Xem thêm</span>
-          import { BsArrowRightSquare } from "react-icons/bs";
-
+          <BsArrowRightSquare/>
         </button>
       </div>
     </div>

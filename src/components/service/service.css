@@ -1,6 +1,6 @@
 .service {
-    background-color: var(--backgroundDark);
-
+    background-color: var(--backgroundColorDark);
+    padding-bottom: 50px;
 }
 
 .service__container {
@@ -22,7 +22,16 @@
 
 .service__content {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+}
+
+.service__content:nth-child(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.service__content:nth-child(odd) .service__content--img {
+    margin-right: 110px;
 }
 
 .content__details {
@@ -35,6 +44,7 @@
     font-size: 16px;
     font-weight: 400;
 }
+
 .content__details li {
     font-size: 14px;
     padding: 10px 0;
@@ -55,8 +65,10 @@
     max-width: 690px;
     max-height: 480px;
     margin-left: 30px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.service__details--button {
+/* .service__details--button {
     max-width: 144px !important;
-}
+} */

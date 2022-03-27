@@ -1,5 +1,4 @@
 import React from "react";
-import { MdDynamicFeed } from "react-icons/md";
 import { GiConfirmed } from "react-icons/gi";
 import { BsArrowRightSquare } from "react-icons/bs";
 
