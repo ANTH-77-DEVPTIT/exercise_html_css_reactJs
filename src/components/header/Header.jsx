@@ -1,20 +1,20 @@
 import React from "react";
 import "./header.css";
 const Header = () => {
-  // const onScroll = () => {
-  //   //truy xuất ra thằng header
-  //   var h = document.getElementById("header")
-  //   console.log(h);
-
-  //   h.addEventListener("scroll", () => {
-  //       //xử lý thằng header khi scroll
-  //       var y = window.pageYOffset;
-  //       console.log(y);
-  //   })
-  // }
-  // onScroll()
+  document.addEventListener("DOMContentLoaded", function () {
+    var h = document.getElementById("header");
+    window.addEventListener("scroll", function () {
+      var x = window.scrollY;
+      if (x > 150) {
+        h.classList.add("scroll");
+      } else {
+        h.classList.remove("scroll");
+      }
+    });
+  });
+  
   return (
-    <div id="header" className="header scroll">
+    <div id="header" className="header">
       <div className="header__container">
         <div className="header__logo">
           <a href="#!">

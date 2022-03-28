@@ -1,6 +1,7 @@
-/* .header {
-    ba
-} */
+.header {
+    background-color: transparent;
+
+}
 
 .scroll {
   background-color: pink;
@@ -9,6 +10,7 @@
   left: 0;
   right: 0;
   z-index: 9999;
+  transition: all 0.7s ease;
 }
 
 .header__container {
