@@ -5,6 +5,7 @@ import { MdDynamicFeed } from "react-icons/md";
 const Feedback = () => {
   return (
     <div className="feedback">
+    <div className="feedback__container">
       <div className="feedback__title">
         <p>- Giới thiệu -</p>
         <h2>Phản hồi của khách hàng về dịch vụ của công ty chúng tôi</h2>
@@ -50,6 +51,7 @@ const Feedback = () => {
             </p>
         </a>
       </div>
+    </div>
     </div>
   );
 };

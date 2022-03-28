@@ -1,0 +1,49 @@
+.quesions {
+    background-color: var(--backgroundColorLight);
+}
+
+.quesions__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.quesions__title {
+    text-align: center;
+    font-family: var(--fontFamily1);
+    padding: 40px 0;
+}
+
+.quesions__title h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.quesions__content {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 200px 200px;
+}
+
+.quesions__content--item {
+    /* nếu muốn css cho từng items thì viết vào đây. tìm hiểu thêm về grid nhé */
+    font-family: var(--fontFamily1);
+    padding: 0 30px;
+}
+
+.quesions__content--title {
+    line-height: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.quesions__content--title span {
+    color: var(--primaryColor);
+    font-size: 2rem;
+    padding-right: 20px;
+}
+
+.quesions__content--item p {
+    font-size: 15px;
+}
