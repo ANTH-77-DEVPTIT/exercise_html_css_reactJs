@@ -6,8 +6,8 @@ import { ImHome3 } from "react-icons/im";
 import "./section.css";
 const Section = () => {
   return (
-    <>
-      <div className="contact">
+    <div className="section">
+      <div className="section__container">
         <div className="banner__left">
           <form>
             <h2 className="banner__title">DỊCH VỤ DỌN DẸP NHÀ SỐ 1 TRÁI ĐẤT</h2>
@@ -20,11 +20,11 @@ const Section = () => {
         </div>
 
         <div className="banner__right">
-          <h2 className="contact__title">
+          <h2 className="section__title">
             Liên hệ ngay cho chúng tôi để dọn dẹp căn nhà của bạn
           </h2>
-          <div className="contact__content">
-            <div className="contact__calendar">
+          <div className="section__content">
+            <div className="section__calendar">
               <div className="calendar__icon">
                 <GoCalendar />
               </div>
@@ -36,7 +36,7 @@ const Section = () => {
                 </p>
               </div>
             </div>
-            <div className="contact__calendar">
+            <div className="section__calendar">
               <div className="calendar__icon">
                 <GiConfirmed />
               </div>
@@ -48,7 +48,7 @@ const Section = () => {
                 </p>
               </div>
             </div>
-            <div className="contact__calendar">
+            <div className="section__calendar">
               <div className="calendar__icon">
                 <ImHome3 />
               </div>
@@ -63,8 +63,7 @@ const Section = () => {
           </div>
         </div>
       </div>
-      
-    </>
+    </div>
   );
 };
 

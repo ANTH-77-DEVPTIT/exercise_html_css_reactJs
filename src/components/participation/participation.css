@@ -1,0 +1,39 @@
+.participation {
+    background-image: url(http://mauweb.monamedia.net/cleanaa/wp-content/uploads/2019/10/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.participation__container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: var(--fontFamily1);
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+}
+
+.participation__container h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.participation__container p {
+    font-size: 15px;
+}
+
+.participation__container .participation__button {
+    margin: 10px 0;
+}
+
+.participation__container .participation__button span {
+    padding-right: 20px;
+}
+
+.participation__link {
+    color: white;
+}
+.participation__link:hover {
+    color: red;
+}

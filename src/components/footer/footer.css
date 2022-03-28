@@ -1,0 +1,81 @@
+.footer {
+    background-color: #343434;
+}
+
+.footer__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0 0 0;
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 20px;
+    color: var(--secondaryColor);
+    font-family: var(--fontFamily1);
+}
+
+.footer__content--logo {
+    height: 40px;
+}
+
+.footer__content--item p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer__content--item h3 {
+    font-size:16px;
+    font-weight: 400;
+}
+
+.content__item--icon {
+    padding: 15px 5px;
+}
+
+.content__icon--link {
+    color: var(--secondaryColor);
+    padding-right: 10px;
+
+}
+
+.content__icon--link:hover {
+    color: var(--primaryColor);
+    transition: all 0.2s ease;
+}
+
+.footer__content--item ul li a {
+    display: block;
+    color: var(--secondaryColor);
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.footer__content--item ul li a:hover {
+    color: var(--primaryColor);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.img__payment {
+    padding: 0 10px;
+}
+
+.footer__license p {
+    text-align: center;
+    color: var(--secondaryColor);
+    padding: 10px 0;
+}
+
+.footer__license p a {
+    color: green;
+    
+}
+
+.footer__license p a:hover {
+    color: var(--primaryColor);
+    transition: all 0.3s ease;
+}

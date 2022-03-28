@@ -81,7 +81,7 @@ const Service = () => {
           </div>
           <div className="service__content--img">
             <img
-              src="http://mauweb.monamedia.net/cleanaa/wp-content/uploads/2019/10/1-1.jpg"
+              src="http://mauweb.monamedia.net/cleanaa/wp-content/uploads/2019/10/1-2.jpg"
               alt=""
             />
           </div>
@@ -119,7 +119,7 @@ const Service = () => {
           </div>
           <div className="service__content--img">
             <img
-              src="http://mauweb.monamedia.net/cleanaa/wp-content/uploads/2019/10/1-1.jpg"
+              src="http://mauweb.monamedia.net/cleanaa/wp-content/uploads/2019/10/2.jpg"
               alt=""
             />
           </div>
@@ -157,50 +157,12 @@ const Service = () => {
           </div>
           <div className="service__content--img">
             <img
-              src="http://mauweb.monamedia.net/cleanaa/wp-content/uploads/2019/10/1-1.jpg"
+              src="http://mauweb.monamedia.net/cleanaa/wp-content/uploads/2019/10/4.jpg"
               alt=""
             />
           </div>
         </div>
 
-        <div className="service__content">
-          <div className="service__content--details">
-            <div className="content__details">
-              <h3>Phòng ngủ tuyệt vời</h3>
-              <ul>
-                <li>
-                  <GiConfirmed className="details__icon" /> Lau bụi ở cả những
-                  nơi không thể tiếp cận
-                </li>
-                <li>
-                  <GiConfirmed className="details__icon" /> Gương và đồ thủy
-                  tinh
-                </li>
-                <li>
-                  <GiConfirmed className="details__icon" /> Tay nắm của và công
-                  tắc đèn
-                </li>
-                <li>
-                  <GiConfirmed className="details__icon" /> Hút bụi và lau sàn
-                </li>
-                <li>
-                  <GiConfirmed className="details__icon" /> Dọn dẹn tủ sách
-                </li>
-              </ul>
-              <button className="button service__details--button">
-                <span className="details__seeMore">Xem thêm</span>
-                <BsArrowRightSquare />
-              </button>
-            </div>
-          </div>
-          <div className="service__content--img">
-            <img
-              src="http://mauweb.monamedia.net/cleanaa/wp-content/uploads/2019/10/1-1.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        
       </div>
     </div>
   );

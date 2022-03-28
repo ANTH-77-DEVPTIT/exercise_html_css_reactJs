@@ -1,6 +1,13 @@
-.contact {
+.section {
+    /* margin: 30px 20px 0; */
+    padding-top: 100px;
+}
+
+.section__container {
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
-    margin: 30px 20px 0;
+    padding-top: 50px;
 }
 
 .banner__left {
@@ -47,13 +54,13 @@ input:focus {
     margin-bottom: 140px;
 }
 
-.contact__title {
+.section__title {
     font-family: var(--fontFamily1);
     font-size: 40px;
     font-weight: 500;
 }
 
-.contact__calendar {
+.section__calendar {
     display: flex;
     flex-direction: row;
     margin: 10px 0;
