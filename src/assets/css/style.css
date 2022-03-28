@@ -7,7 +7,6 @@ body {
     margin: 0;
     overflow-x: hidden;
     box-sizing: border-box;
-    /* background-color: rgb(252, 238, 240); */
 }
 
 a {
@@ -21,6 +20,10 @@ img {
 li {
     list-style: none;
 }
+
+ul {
+    padding: 0;
+}
 /* những css chung sẽ để ở đây */
 
 /* #wrapper {
@@ -33,31 +36,14 @@ li {
 
 }
 
-.content {
-    width: 1200px;
-    margin: 0 auto;
-}
 
-
-.section {
-    margin: 20px 30px 0px;
-}
-
-/* .button {
-    background-color: var(--primaryColor);
-    max-width: 234px;
-    padding: 10px 0;
-    border: none;
-    margin: 0 30px;
-    border-radius: 5px;
-} */
 .button {
     background-color: var(--primaryColor);
     color: white;
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
-    min-width: 234px;
+    min-width: 200px;
 }
 
 .button:hover {

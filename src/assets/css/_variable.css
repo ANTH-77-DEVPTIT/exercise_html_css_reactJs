@@ -1,8 +1,10 @@
 /* file này để tạo các biến css  */
 :root {
     --primaryColor: #F2804C;
+    --secondaryColor: #a4a4a4;
     --backgroundColorLight: #ffffffff;
     --backgroundColorDark: #F2F2F2;
     --fontFamily1: 'Red Hat Mono', monospace;
     --fontFamily2: 'Roboto', sans-serif
+    
 }

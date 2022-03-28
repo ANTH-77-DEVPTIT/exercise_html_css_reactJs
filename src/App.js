@@ -12,17 +12,26 @@ import Contact from "./components/contact/Contact";
 import Address from "./components/address/Address";
 import Footer from "./components/footer/Footer";
 function App() {
+  function onScroll() {
+    //get element 
+    // window.addEventListener("scroll", callbackFunc);
+    // function callbackFunc() {
+    //   var y = window.pageYOffset;
+    //   if (y > 150) {
+    //     h.classList.add("scroll");
+    //   } else {
+    //     h.classList.remove("scroll");
+    //   }
+    // }
+    console.log("Xin chào");
+  }
   return (
-    <div>
+    <div  onScroll={onScroll}>
       <div id="wrapper">
         {/* chứa header với phần content contact */}
         <div id="main">
-          <div className="content">
-            <Header />
-            <div className="section">
-              <Section />
-            </div>
-          </div>
+          <Header />
+          <Section />
         </div>
         <Gallery />
         <Feedback />
